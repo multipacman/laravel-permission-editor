@@ -1,0 +1,27 @@
+{
+    "name": "multipacman/laravel-permission-editor",
+    "description": "Simple user role & permission package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "multipacman\\LaravelPermissionEditor\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "multipacman\\LaravelPermissionEditor\\PermissionEditorServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "multipacman",
+            "email": "abdulhadhee1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "spatie/laravel-permission": "^5.8"
+    }
+}
